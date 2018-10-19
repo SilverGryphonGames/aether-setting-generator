@@ -56,7 +56,7 @@ var (
 		"Action",
 		"Black",
 		"Dark",
-		"Distopia",
+		"Dystopia",
 		"Heroic",
 		"Noir",
 		"Romance",
