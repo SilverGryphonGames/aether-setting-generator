@@ -3,7 +3,7 @@ package aethersetgen
 import (
 	"math/rand"
 
-	"github.com/ironarachne/utility"
+	"github.com/ironarachne/world/pkg/random"
 )
 
 // Setting is a conglomeration of descriptors for a game setting
@@ -15,19 +15,19 @@ type Setting struct {
 }
 
 func randomTimePeriod() string {
-	return utility.RandomItem(timePeriods)
+	return random.String(timePeriods)
 }
 
 func randomTechnology() string {
-	return utility.RandomItem(technologies)
+	return random.String(technologies)
 }
 
 func randomTone() string {
-	return utility.RandomItem(tones)
+	return random.String(tones)
 }
 
 func randomGenre() string {
-	return utility.RandomItem(genres)
+	return random.String(genres)
 }
 
 func randomGenres() []string {
